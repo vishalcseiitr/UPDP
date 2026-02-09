@@ -24,7 +24,7 @@ The main runnable code is under **`UPDP_Method/`**.
   - `run_experiments.py` — batch runner across datasets/epsilons/seeds + summary CSV
   - `evaluation_metrics.py` — lightweight evaluation (ML utility + query error + distribution fidelity)
   - `test_updp.py` — sanity tests + optional run on a real dataset folder
-- `evaluator/` — evaluation utilities (ML models + query metrics). **Some paths in this tree expect methods not included in this repo.**
+- `evaluator/` — evaluation utilities (ML models + query metrics).
 - `preprocess_common/`, `util/` — shared preprocessing/utility code (some scripts reference methods not shipped here)
 - `Method/` — included baseline method codebases (AIM, DP_MERF, GEM, PrivMRF, RAP, TabDDPM, private_gsd).
 - `plots/` — pre-generated comparison figures.
